@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Trebuchet MS , sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #ffd9f0;
+            color: rgb(255, 30, 169);
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0078d7, #00bfff);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: white;
+            color: #ff3195;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #ff3195;
+        }
+
+        .about,
+        .contact {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-card,
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        footer {
+            background: #ffd9f0;
+            color: #ff3195;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav ul {
+                margin-top: 10px;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Your Name</h2>
+        <nav>
+            <ul>
+                <li>#aboutAbout</a></li>
+                <li>#skillsSkills</a></li>
+                <li>#projectsProjects</a></li>
+                <li>#contactContact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hello, I'm Your Name</h1>
+        <p>Web Developer | Designer | Creator</p>
+        #projectsView My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <p>
+                I'm a passionate developer who enjoys building websites,
+                applications, and digital experiences. I love learning new
+                technologies and turning ideas into reality.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">UI/UX Design</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>A responsive website built with HTML, CSS, and JavaScript.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>A web application featuring API integration and modern UI.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>An e-commerce platform with secure payments and dashboards.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact">
+            <p>Email: your.email@example.com</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+            <p>GitHub: github.com/yourusername</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
